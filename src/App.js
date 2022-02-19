@@ -17,6 +17,11 @@ function App() {
         >
         </a>
       </header>
+      <div className = "App-footer">
+         <footer>
+        By Tom Hester
+      </footer>
+      </div>
     </div>
   );
 }
