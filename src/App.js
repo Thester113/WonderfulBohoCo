@@ -9,13 +9,6 @@ function App() {
         <p>
           WonderfulBohoCo coming soon!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
       </header>
       <div className = "App-footer">
          <footer>
