@@ -1,19 +1,16 @@
-import logo from './BoHoComing.jpg'
-import './App.css';
+import "./App.css";
+import SignInSide from "./components/Signin/SignInSide";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          WonderfulBohoCo coming soon!
-        </p>
+        <SignInSide />
+        <p>WonderfulBohoCo coming soon!</p>
       </header>
-      <div className = "App-footer">
-         <footer>
-        By Tom Hester
-      </footer>
+
+      <div className="App-footer">
+        <footer>By Tom Hester</footer>
       </div>
     </div>
   );
